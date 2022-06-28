@@ -11,3 +11,4 @@ word = soup.select_one('#NM_set_home_btn')
 # soup.select_one은 1개의 태그를 선택하고 싶을때
 # id를 찾을때는 앞에 #을 붙인다.
 print(word.text)
+# .text를 안붙이면 그 id 값 전체 태그가 나온다.
