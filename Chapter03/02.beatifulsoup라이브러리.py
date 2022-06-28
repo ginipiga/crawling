@@ -12,3 +12,4 @@ word = soup.select_one('#NM_set_home_btn')
 # id를 찾을때는 앞에 #을 붙인다.
 print(word.text)
 # .text를 안붙이면 그 id 값 전체 태그가 나온다.
+# No module named 'bs4' 일때는 pip install bs4 를 입력해 해결한다.
